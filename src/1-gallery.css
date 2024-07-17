@@ -1,0 +1,25 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+.gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px;
+  margin: 0;
+  line-height: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-image {
+  width: 510px;
+  height: 340px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
