@@ -1,0 +1,1 @@
+:root{--timing-function: cubic-bezier(.4, 0, .2, 1);--animation-duration: .25s}.gallery{list-style-type:none;display:flex;flex-wrap:wrap;gap:8px;padding:8px;line-height:0;margin:0 auto}.gallery-image{width:510px;height:340px;object-fit:cover;margin:0;padding:0;display:block}
